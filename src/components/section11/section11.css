@@ -1,0 +1,74 @@
+.section-11 {
+    width: 100%;
+    height: 550px;
+    padding: 3rem;
+    gap: 1rem;
+    background-image: url("../../static/typing.jpg");
+    background-size: cover;
+    background-repeat: none;
+    filter: blur(10px);
+  }
+  .position-div {
+    position: relative;
+  }
+  .bg-image {
+    color: #fff;
+    position: absolute;
+    top: 1rem;
+    gap: 2rem;
+    width: 100%;
+    height: 100%;
+  }
+  .bg-image .bottom p {
+    text-align: center;
+    opacity: 0.6;
+    font-weight: 200;
+  }
+  .bg-image .top,
+  .bg-image .bottom {
+    text-align: center;
+    border: none;
+  }
+  .bg-image div {
+    padding-right: 2rem;
+    border-right: 1px solid #ffffff40;
+  }
+  .bg-image div:last-child {
+    border: none;
+  }
+  .bg-image .blur-div {
+    position: absolute;
+    top: 15.5rem;
+    border-radius: 5px;
+    width: 750px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid #ffffff40;
+  }
+  
+  .bg-image .bottom {
+    padding: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+  }
+  
+  /* Responsive design */
+  @media screen and (min-width: 320px) and (max-width: 450px) {
+    .bg-image .blur-div {
+      width: 320px;
+    }
+    .bg-image div {
+      padding: 0px;
+    }
+    .bg-image .bottom{
+      padding: 0px;
+      gap: 10px;
+      font-size: 10px;
+    }
+  }

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./header.css"
-import logo from "../../static/logo.png";
+import logo from "../../Assets/logo.png";
 const Header = () => {
   return (
     <header id='header'>
@@ -13,7 +13,7 @@ const Header = () => {
           <a href="/">Blogs</a>
           <a href="/">Leaderbaard</a>
           <a href="/">Fees</a>
-          <button className='gradient-bg'>TRADE NOW</button>
+          <button className='gradient'>TRADE NOW</button>
         </div>
       </div>
     </header>

@@ -1,0 +1,12 @@
+.main-div7{
+    text-align: center;
+    background-color: black;
+    color: #FFF;
+    padding: 3rem;
+    gap: 2rem;
+  }
+  .main-div7 .bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }

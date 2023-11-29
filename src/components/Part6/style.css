@@ -1,0 +1,42 @@
+.main-div6 {
+    padding: 3rem;
+  }
+  .main-div6 .top{
+    text-align: center;
+  }
+  .main-div6 .top p {
+    width: 400px;
+  }
+  .main-div6 .bottom {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .main-div6 .bottom .card {
+    background-color: #efefef;
+    padding: 1rem;
+    width: 450px;
+  }
+  .main-div6 .bottom .card img {
+    padding: 1rem;
+    width: 150px;
+  }
+  .main-div6 .bottom h1 {
+    font-weight: 800;
+  }
+  
+  /* Responsive design */
+  @media screen and (min-width: 320px) and (max-width: 450px) {
+    .main-div6 {
+      padding: 1rem;
+    }
+    .main-div6 .bottom .card {
+      width: 300px;
+      padding: 10px;
+    }
+    .main-div6 .top p {
+      width: 300px;
+    }
+  }

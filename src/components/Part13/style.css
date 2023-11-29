@@ -1,0 +1,113 @@
+.main-div13 {
+    position: relative;
+    height: 160vh;
+    padding: 4rem;
+    background-color: black;
+    color: #ffffff;
+  }
+  .main-div13 .top h1 {
+    background: linear-gradient(
+      176.64deg,
+      #ffffff 2.77%,
+      rgba(255, 255, 255, 0) 139.85%
+    );
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 74px;
+  }
+  .main-div13 .bottom {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .main-div13 .bottom img {
+    margin-top: -35px;
+    width: 400px;
+  }
+  .main-div13 .trade {
+    margin-top: -200px;
+    width: 501px;
+    height: 70px;
+    font-size: 20px;
+    border: none;
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 3px;
+    z-index: 5;
+    background: linear-gradient(85.85deg, #32d875 10.09%, #d4f938 50.69%);
+  }
+  
+  /* Responsive design */
+  @media screen and (min-width: 320px) and (max-width: 375px) {
+    .main-div13 {
+      height: 100vh;
+    }
+    .main-div13 .bottom img {
+      margin-top: -15px;
+      width: 180px !important;
+    }
+    .main-div13 .trade {
+      margin-top: -75px;
+      width: 280px;
+      height: 50px;
+    }
+    .main-div13 .top h1 {
+      font-size: 30px;
+    }
+  }
+  
+  @media screen and (min-width: 375px) and (max-width: 424px) {
+    .main-div13 {
+      height: 100vh;
+    }
+    .main-div13 .bottom img {
+      margin-top: -15px;
+      width: 180px;
+    }
+    .main-div13 .trade {
+      margin-top: -113px;
+      width: 280px;
+      height: 50px;
+    }
+    .main-div13 .top h1 {
+      font-size: 30px;
+    }
+  }
+  
+  @media screen and (min-width: 425px) and (max-width: 767px) {
+    .main-div13 {
+      height: 100vh;
+    }
+    .main-div13 .bottom img {
+      margin-top: -18px;
+      width: 180px;
+    }
+    .main-div13 .trade {
+      margin-top: -120px;
+      width: 280px;
+      height: 50px;
+    }
+    .main-div13 .top h1 {
+      font-size: 30px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 850px) {
+    .main-div13 {
+      height: 90vh;
+    }
+    .main-div13 .bottom img {
+      margin-top: -18px;
+      width: 180px;
+    }
+    .main-div13 .trade {
+      margin-top: -70px;
+      width: 280px;
+      height: 50px;
+    }
+    .main-div13 .top h1 {
+      font-size: 30px;
+    }
+  }

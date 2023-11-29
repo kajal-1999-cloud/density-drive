@@ -1,11 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import "./footer.css"
-import logo from "../../static/footerlogo.png"
-import icon1 from "../../static/fb.svg"
-import icon2 from "../../static/twitt.svg"
-import icon3 from "../../static/linkein.svg"
-import icon4 from "../../static/github.svg"
+import logo from "../../Assets/footerlogo.png"
+import icon1 from "../../Assets/fb.svg"
+import icon2 from "../../Assets/twitt.svg"
+import icon3 from "../../Assets/linkein.svg"
+import icon4 from "../../Assets/github.svg"
 const Footer = () => {
   return (
     <footer className='flex'>

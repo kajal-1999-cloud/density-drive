@@ -1,0 +1,28 @@
+.main-div3{
+    padding: 4rem;
+    background: black;
+    color: #fff;
+  }
+ .main-div3 .top p{
+    font-weight: 200;
+  }
+ .main-div3 .bottom{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+  }
+ .main-div3 .bottom .image-2{
+    width: 240px;
+  }
+ .main-div3 .bottom img{
+    width: 200px;
+  }
+  
+  /* Responsive design */
+  @media screen and (min-width: 320px) and (max-width: 450px){
+   .main-div3 h1{
+      text-align: center;
+    }
+  }

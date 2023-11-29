@@ -1,0 +1,32 @@
+.main-div5 {
+    padding: 3rem;
+    background-color: black;
+    color: #fff;
+    gap: 2rem;
+  }
+.main-div5 .top {
+    line-height: 0px;
+    text-align: center;
+  }
+  .yellow {
+    color: #ebff25;
+  }
+.main-div5 .bottom img {
+    width: 800px;
+  }
+  
+  /* Responsive design */
+  @media screen and (min-width: 320px) and (max-width: 450px) {
+  .main-div5 h1 {
+      text-align: center;
+    }
+  .main-div5 .bottom img {
+      width: 300px;
+    }
+  .main-div5 .top h1{
+      line-height: 32px;
+    }
+  .main-div5 .top p{
+      line-height: 20px;
+    }
+  }

@@ -1,18 +1,19 @@
 .main-div12{
-    color: #fff;
+    color: #faf9f9;
     background-color: #19191d;
     padding: 5rem;
     gap: 3rem;
   }
 .main-div12 .top {
     text-align: center;
+    /* color: black; */
   }
 .main-div12 .bottom {
     flex-direction: row;
     flex-flow: row wrap;
     gap: 3rem;
   }
-.main-div12 .bottom .person-card {
+.main-div12 .bottom .card {
     background-color: #27282e;
     height: 240px;
     width: 220px;

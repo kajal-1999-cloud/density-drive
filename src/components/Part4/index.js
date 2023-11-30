@@ -12,7 +12,7 @@ const Part4 = () => {
       <div className='bottom'>
         <img src={tradebig} alt='image'/>
       </div>
-      <div><button className='gradient-bg'>Explore Markets</button></div>
+      <div><button className='gradient'>Explore Markets</button></div>
     </div>
   )
 }

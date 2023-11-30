@@ -11,9 +11,9 @@ const Part2 = () => {
     <>
       <div className='main-div-2 flex'>
         <div className='card'>
-          <img className='frame' src={frame1} alt='image' />
+        <img className='frame' src={frame1} alt='image' />
           <div className='para1'>
-            <img className='logo' src={G1} alt='image' />
+          <img className='logo' src={G1} alt='image' />
             <p>One App.</p>
             <p>Endless</p>
             <p>Possibilities</p>

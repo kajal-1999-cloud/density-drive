@@ -9,32 +9,40 @@
   height: fit-content;
   position: relative;
   background-color: inherit;
+  gap: rem;
 }
 .main-div-2 .card .logo {
-  padding: 3rem;
+  /* padding: 1rem; */
+  gap: 1rem;
+  width:150px;
+  margin-bottom: 1.5rem;
+
 }
+
 
 .main-div-2 .card p {
   font-weight: 00;
-  font-size: 33.501px;
+  font-size: 33px;
   color: #fff;
+  padding: .2rem;
+  text-align: center;
 }
 .main-div-2 .card .para1 {
   position: absolute;
-  bottom: 9rem;
-  left: 3rem;
-  line-height: 32px;
+  bottom: 7.3rem;
+  left: 5rem;
+  line-height: 30px;
 }
 .main-div-2 .card .para2 {
   position: absolute;
-  bottom: 11rem;
+  bottom: 9rem;
   left: 4rem;
   line-height: 32px;
 }
 .main-div-2 .card .para3 {
   position: absolute;
   bottom: 13rem;
-  left: 3rem;
+  left: 4rem;
   line-height: 32px;
 }
 

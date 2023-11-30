@@ -1,16 +1,26 @@
 .main-div1 {
-    margin-top: 4.5rem;
+    margin-top: 3.5rem;
     background-color: black;
     color: #fff;
     padding: 1rem;
   }
+  .main-div1 .top{
+    margin-top: 2.8rem;
+
+  }
 .main-div1 .top h1 {
-    font-size: 72px;
+    font-size: 79px;
     text-align: center;
+
+  }
+  .main-div-1 .middle{
+    
   }
   .top p {
-    padding: 10px;
+    padding: 19px;
     text-align: center;
+    font-size: 20px;
+
   }
   .gradient-color {
     background: -webkit-linear-gradient(-45deg, #5ae065, #d4f938);
@@ -20,10 +30,18 @@
   }
 .main-div1 .middle {
     position: relative;
-    padding: 2rem;
+    /* padding: 2rem; */
+    box-shadow: 0 0 99px 0px #a8ef9ccc;
+    /* box-shadow: 0px 0px 96px 0px #a8ef9ccc; */
+    border-radius: 50%;
+    margin: 28px;
   }
+
+  
 .main-div1 .middle img {
-    width: 800px;
+     width: 700px;
+    /* box-shadow: 0px 0px 16px 0px #a8ef9ccc; */
+    display: block; 
   }
 .main-div1 .bottom {
     padding: 4rem;

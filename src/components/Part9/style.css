@@ -1,11 +1,11 @@
-.main-div {
+.main-div9 {
     gap: 2rem;
     padding: 3rem;
   }
-  .main-div .top{
+  .main-div9 .top{
     text-align: center;
   }
-  .main-div .bottom {
+  .main-div9 .bottom {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,10 +42,10 @@
   
   /* Responsive design */
   @media screen and (min-width: 320px) and (max-width: 450px) {
-    .main-div9 {
+    .main-div99 {
       padding: 1rem;
     }
-  .person-card {
+  .card {
   height: 300px;
   }
   }

@@ -13,8 +13,9 @@ const Part1 = () => {
         <p>Trade BTC, ETH Futures with 125x leverage and earn rewards.</p>
       </div>
       <div className='middle'>
-        {/* <div className='background'></div> */}
+        <div className='background'> 
         <img src={mobile} alt='mobile-img' />
+        </div>
       </div>
       <div className='bottom'>
         <div className='sections'>
